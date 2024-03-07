@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+         <div id="brand">WatchHouse</div>
+        
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="./index.html">Home</a>
+              <a href="./about.html">About</a>
+             
+              <a href="./specs.html">Specs</a>
+              <a href="./review.html">Reviews</a>
+            </div>
+          </div>
+          <span style="font-size:35px;cursor:pointer;color: crimson;" onclick="openNav()">&#9776; Menu </span>
+
+          <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "25%";
+            }
+            
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+            </script>
+    </nav>
+    <!-- Main Section -->
+    <main>
+        <section>
+            <h1>Reviews</h1>
+            <div class="specification"><strong></div>
+            <table>
+                <tr>
+                    <th>Ratings out of 5</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>4.4</td>
+                    <td>Amazing product Must Buy</td>
+                    
+                  </tr>
+                <tr>
+                  <td>4.5</td>
+                  <td>Worth every penny</td>
+                  
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Very Comfortable feel</td>
+                  
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Average , Not as expected</td>
+                  
+                </tr>
+                <tr>
+                  <td>3.4</td>
+                  <td>Satisfactory</td>
+                  
+                </tr>
+                
+                
+                
+                  
+                  
+              </table>
+
+           
+        </section>
+        <figure>
+            <img src="./img/Demo.avif" alt="Smart Watch">
+            <button class="ccc">Buy</button>
+        </figure>
+        
+    </main>
+        
+</body>
+</html>

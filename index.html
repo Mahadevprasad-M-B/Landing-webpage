@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+         <div id="brand"><span>Watch House</span></div>
+        
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                
+              <a href="./about.html">About</a>
+              <a href="./specs.html">Specs</a>
+              <a href="./review.html">Reviews</a>
+              <a href="./index.html">Home</a>
+            </div>
+          </div>
+          <span style="font-size:35px;cursor:pointer;color: crimson;" onclick="openNav()">&#9776; Menu </span>
+
+          <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "25%";
+            }
+            
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+            </script>
+    </nav>
+    <!-- Main Section -->
+    <main>
+        <section>
+            <h1>Smart Watch 2.0</h1>
+            <p>Everyone look at your watch and it<br />
+            represents who you are, your values and <br/>
+            your personal style - <span>Kobe Bryant</span>
+            </p>
+            <div class="cta">
+                <button >
+                   <a href="./specs.html"> Learn more <span>&gt;</span></a>
+                </button>
+                
+            </div>
+        </section>
+        <figure>
+            <img src="./img/Demo.avif" alt="Smart Watch">
+        </figure>
+        
+    </main>
+
+    <footer class="footer">
+        
+        
+        <div class="footer-grid">
+            <h3>Shop</h3>
+            <ul>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Welcome Voucher</a></li>
+                <li><a href="#">Referral Advantage</a></li>
+                <li><a href="#">Student Advantage</a></li>
+                <li><a href="#">Defence Purchase Program</a></li>
+                <li><a href="#">Corporate Employee Program</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-grid">
+            <h3>Account & Community</h3>
+            <ul>
+                <li><a href="#">My Products</a></li>
+                <li><a href="#">Orders</a></li>
+                <li><a href="#">Wishlist</a></li>
+                <li><a href="#">Vouchers</a></li>
+                <li><a href="#">My Referrals</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
